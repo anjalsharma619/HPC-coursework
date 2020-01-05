@@ -48,7 +48,7 @@ void kernel_function_1(char *salt_and_encrypted)
             }
             else 
                 {
-                    printf(" %-8d%s %s\n", counter, plain, enc_pass);
+                  //  printf(" %-8d%s %s\n", counter, plain, enc_pass);
                 }
     }
   }
@@ -79,7 +79,7 @@ void kernel_function_2(char *salt_and_encrypted)
             }
             else 
                 {
-                    printf(" %-8d%s %s\n", counter, plain, enc_pass);
+                   // printf(" %-8d%s %s\n", counter, plain, enc_pass);
                 }
     }
   }
